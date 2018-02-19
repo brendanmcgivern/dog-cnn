@@ -1,6 +1,6 @@
 # CNN Dog Breed Classifier
 
-[image1]: ./images/sample_dog_output.png "Sample Output"
+![Sample Output](./images/sample_dog_output.png)
 
 ## Project Overview
 In this project, I developed a convolutional neural network capable of identifying and estimating a canine’s breed. If supplied an image of a human, the code will identify the resembling dog breed.
@@ -51,14 +51,15 @@ While transfer learning increased my test accuracy substantially, I was still ex
 
 ## Before Applying Dropout
 
-[image1]: ./images/overfit-acc.png "Sample Output"
+![overfit acc](./images/overfit-acc.png)
 
-[image1]: ./images/overfit-loss.png "Sample Output"
+
+![overfit loss](./images/overfit-loss.png)
 
 ## After Applying Dropout
 
-[image1]: ./images/dropout-acc.png "Sample Output"
+![dropout acc](./images/dropout-acc.png)
 
-[image1]: ./images/dropout-loss.png "Sample Output"
+![dropout loss](./images/dropout-loss.png)
 
 As you can see, the level of overfitting has decreased a fair amount. I could decrease this even further by using augmented data in conjunction with feature extraction.
